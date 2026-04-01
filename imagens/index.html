@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="imagens/favicon.jpg">
+
+<title>Fast Food Universe</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #ff512f, #dd2476);
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  background: rgba(0,0,0,0.7);
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.link-card {
+  text-decoration: none;
+}
+
+.card {
+  background: #fff;
+  color: #333;
+  width: 260px;
+  margin: 15px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin: 15px;
+  color: #333;
+}
+
+.card p {
+  margin: 0 15px 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.8);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Fast Food Universe</h1>
+  <p>Os gigantes do fast food em um só lugar</p>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="curiosidades.html">Curiosidades</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <!-- McDonald's -->
+  <a href="https://www.mcdonalds.com" target="_blank" class="link-card">
+    <div class="card">
+      <img src="MC.png">
+      <h2>McDonald's</h2>
+      <p>Famoso mundialmente pelos seus hambúrgueres icônicos.</p>
+    </div>
+  </a>
+
+  <!-- Burger King -->
+  <a href="https://www.burgerking.com" target="_blank" class="link-card">
+    <div class="card">
+      <img src="Burger King.png">
+      <h2>Burger King</h2>
+      <p>Conhecido pelos hambúrgueres grelhados no fogo.</p>
+    </div>
+  </a>
+
+  <!-- Popeyes -->
+  <a href="https://www.popeyes.com" target="_blank" class="link-card">
+    <div class="card">
+      <img src="ppyes.jpg">
+      <h2>Popeyes</h2>
+      <p>Especialista em frango frito crocante.</p>
+    </div>
+  </a>
+
+  <!-- Pizza Hut -->
+  <a href="https://www.pizzahut.com" target="_blank" class="link-card">
+    <div class="card">
+      <img src="hut.jpg">
+      <h2>Pizza Hut</h2>
+      <p>Pizzas deliciosas com massa macia.</p>
+    </div>
+  </a>
+
+  <!-- Burdog -->
+  <a href="https://burdog.com.br/" target="_blank" class="link-card">
+    <div class="card">
+      <img src="burdog.png">
+      <h2>Burdog</h2>
+      <p>Hambúrgueres, milkshakes e muito mais até a madrugada.</p>
+    </div>
+  </a>
+
+</div>
+
+<footer>
+  <p>🔥 Clique nos cards e explore os sites oficiais!</p>
+</footer>
+
+</body>
+</html>
